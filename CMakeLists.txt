@@ -13,8 +13,8 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 set(FRI_BUILD_EXAMPLES OFF)
 
 # set the FRI version
-set(FRI_CLIENT_VERSION_MAJOR 1 CACHE STRING "The FRI client major version." FORCE)
-set(FRI_CLIENT_VERSION_MINOR 15 CACHE STRING "The FRI client minor version." FORCE)
+set(FRI_CLIENT_VERSION_MAJOR 2 CACHE STRING "The FRI client major version." FORCE)
+set(FRI_CLIENT_VERSION_MINOR 7 CACHE STRING "The FRI client minor version." FORCE)
 
 # fetch the fri depending on the version
 FetchContent_Declare(
